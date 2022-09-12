@@ -21,7 +21,7 @@ function onEachFeature(feature, layer) {
 }
 
 /* global statesData */
-L.geoJson(statesData, {
+L.geoJson(kommuneData, {
     style: function (feature) {
         return {
             weight: 2,
